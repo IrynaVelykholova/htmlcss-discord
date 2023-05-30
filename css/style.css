@@ -171,10 +171,13 @@ footer .col-large {
     list-style: none;
 }
 footer ul li a {
-    list-style: none;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
 }
 footer ul li:first-child {
     color: #7289da;
+    padding-bottom: 20px;
 }
 
 footer hr {
