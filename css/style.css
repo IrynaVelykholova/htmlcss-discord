@@ -24,7 +24,24 @@ header nav .container {
     background-color: white;
     border-radius: 25px;
 }
+.nav-links, .nav-login {
+    padding: 1rem;
+}
+.nav-logo, .nav-login {
+    min-width: 100px;
+}
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
 
+.nav-links ul a {
+    display: inline-block;
+    padding: 0 0.3rem;
+    text-decoration: none;
+    color: white;
+}
 /* BLOCCO SOTTO IL NAV  */
 section {
     padding-top: 2rem;
@@ -68,47 +85,37 @@ h1 {
     background-color: black;
     border-radius: 25px;
 }
+/* MAIN */
+h2 {
+    line-height: 38px;
+    margin-top: 28px;
+    font-size: 32px;
+    text-align: left;
+}
+.paragraphs {
+    text-align: left;
+    line-height: 22px;
+    margin-top: 20px;
+}
 .bg-grey {
     background-color: #d3d3d3;
 }
 
-.nav-links, .nav-login {
-    padding: 1rem;
-}
-.nav-logo, .nav-login {
-    min-width: 100px;
-}
-
-.nav-links ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.nav-links ul a {
-    display: inline-block;
-    padding: 0 0.3rem;
-    text-decoration: none;
-    color: white;
-}
 
 .row {
     display: flex;
 }
 
 .col-large, .col-small {
-    border: 1px dashed black;
     min-height: 300px;
 }
 
 .col-large {
     width: 60%;
-    background-color: #1e90ff;
 }
 
 .col-small {
     width: 40%;
-    background-color: #ffc0cb;
 }
 
 .box-green {
