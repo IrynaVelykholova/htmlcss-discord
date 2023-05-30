@@ -9,11 +9,16 @@ html, body {
 header {
     padding-top: 1rem;
     padding-bottom: 4px;
+}
+.hero-section {
     background-image: url(../img/jumbo.png);
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 header nav {
-    margin-bottom: 1rem;
+    padding-top: 10px;
+    background-color: rgb(37, 94, 233);
 }
 header nav .container {
     display: flex;
@@ -71,9 +76,10 @@ h1 {
     max-width: 680px;
     min-height: 300px;
 }
-.container div:last-child  {
+.hero-div, .main-botton-part {
     text-align: center;
 }
+
 .hero-first-button {
     padding: 15px;
     margin-right: 20px;
@@ -100,7 +106,6 @@ h2 {
 .bg-grey {
     background-color: #d3d3d3;
 }
-
 
 .row {
     display: flex;
@@ -166,6 +171,7 @@ footer .col-large {
 #language {
     width: 30px;
     text-align: left;
+    margin-top: 20px;
 }
 .col ul {
     list-style: none;
